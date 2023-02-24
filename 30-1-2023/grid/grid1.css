@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+
+.a{background-color: blueviolet; grid-area: a;}
+.b{background-color: brown; grid-area: b;}
+.c{background-color: burlywood; grid-area: c;}
+.d{background-color: cadetblue; grid-area: d;}
+.e{background-color: chartreuse; grid-area: e;}
+.main{
+    display: grid;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   border: 5px;
+    gap: 5px;
+    /* grid-template-columns: auto auto auto auto auto; */
+    grid-template-areas:"a"
+    "b"
+    "c"
+    "d"
+    "e"    
+    ;
+   }

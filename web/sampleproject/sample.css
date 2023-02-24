@@ -1,0 +1,13 @@
+
+body{
+   margin: 0px;
+}
+.d1{
+    color: white;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}

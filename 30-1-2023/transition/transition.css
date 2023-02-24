@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+
+}
+div{
+    background-color: white;
+    height: 50vh;
+    width: 50vh;
+    transition:background 1s ;
+
+}
+div:hover{
+    background-color: blueviolet;
+}

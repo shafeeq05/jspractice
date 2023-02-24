@@ -1,0 +1,59 @@
+
+/* without margin and padding */
+body{
+    
+    background-color: brown;
+    justify-content: center;
+    
+
+}
+.d1{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color:yellow;
+    position: absolute;
+    left: 20vh;
+    top: 10vh;
+   
+    
+    
+    
+  
+}
+.d2{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color:yellow;
+    position: absolute;
+    left: 150vh;
+    top: 0vh;
+    
+    
+    /* justify-content: left; */
+   
+}
+
+
+.d3{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: yellow;
+    position: absolute;
+    top: 60vh;
+    right: 0vh;
+    
+    
+    
+}
+.d4{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color:yellow;
+    position: absolute;
+    top: 60vh;
+    left: 150vh;
+}

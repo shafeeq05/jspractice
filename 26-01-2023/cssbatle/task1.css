@@ -1,0 +1,25 @@
+h1::after{
+    content:"*";
+    color: red;
+}
+h1::before{
+    content: "*";
+    color: green;
+
+}
+h1:hover::after{
+    content: " shafeeq";
+    color: blue;
+}
+h1:active{
+    color:red;
+}
+input:focus{
+    background-color: brown;
+}
+a:link{
+    color: rgb(216, 197, 21);
+}
+a:visited{
+    color:rgb(241, 37, 64);
+}

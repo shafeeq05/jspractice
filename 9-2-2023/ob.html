@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<p id="demo"></p>
+  
+<script>
+
+sha=[6,8,66,789,00,44,232]
+let[...i4a]=sha;
+document.write(...a);
+const vehicleOne = {
+  brand: 'Ford',
+  model: 'Mustang',
+  type: 'car',
+  year: 2021, 
+  color: 'red',
+  registration: {
+    city: 'Houston',
+    state: 'Texas',
+    country: 'USA',
+    number: {
+    reg_no:12345,
+    }
+  }
+}
+
+myVehicle(vehicleOne)
+
+function myVehicle({ model, registration: { state ,number:{reg_no} }}) {
+  const message = 'My ' + model + ' is registered in ' + state + '.'+reg_no;
+
+  document.getElementById("demo").innerHTML = message;
+
+  let obj1={
+    name:"abc",
+    lname:"lname",
+    age:23
+    
+  }
+  let obj2={
+    name:"bcd",
+    lname:"lname",
+    fun: function(){
+      console.log(this);
+    }
+  }  
+  let fu= function( ){
+    let x=lname+age
+    
+  }
+ 
+ 
+ let bb= obj2.fun;
+bb()
+bb.call(obj2)
+obj2.fun=obj2.fun.bind(obj1)
+//de structur
+let { name,lname,age}=obj1
+console.log("hai "+name,lname,age);
+
+console.log(asrg);
+let {...y}=obj2
+console.log(y);  
+}
+
+
+</script>
+
+</body>
+</html>

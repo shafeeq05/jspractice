@@ -1,0 +1,29 @@
+.First{
+ text-align: center;
+ color: red;
+ font-style: italic;
+ 
+}
+.Secon{
+    font-style: normal;
+    text-align: right;
+    animation: scroll-left 10s linear infinite;
+    background-color: brown;
+    
+
+}
+@keyframes scroll-left {
+    form{ transform: translateX(100%);
+        
+    }
+    to{
+        transform: translateX(-100%);
+    }    
+}
+body{
+    background-color: cornsilk;
+}.d1{
+    background-color: aqua;
+}d2{
+    background-color: blue;
+}

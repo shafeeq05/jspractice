@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    background-color: aliceblue;
+}
+body>div{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    z-index: 1;
+}
+body>h3{
+    color:aqua;
+    z-index: 2;
+}
+div{
+    animation-duration: 10s;
+    animation-name: sha;
+    animation-iteration-count: infinite;
+
+}
+@keyframes sha{
+    0% {background-color: red; left: 0; top:0;}
+    25%{background-color: green;left: 50vh;top: 0px;}
+    50%{background-color: blue; left: 60vh; top: 60vh;}
+    75%{background-color: yellow;left: 0px; top:70vh ;}
+    100%{background-color: red;left: 100px; top: 0px;}
+}
+h3{
+    position: absolute;
+    animation-duration: 10s;
+    animation-name:moving;
+    animation-iteration-count: infinite;
+}
+@keyframes moving{
+    0% {
+        color: wheat; left:1px
+    }
+    /* 10%{color: rgb(30, 99, 99); left: 10%;}
+    20%{color: rgb(66, 202, 25); left: 20%;}
+    30%{color: rgb(189, 72, 127); left: 30%;}
+    40%{color: rgb(9, 13, 31); left: 40%;}
+    50%{color: rgb(13, 161, 137); left: 50%;}
+    60%{color: rgb(128, 14, 94); left: 60%;}
+    70%{color: rgb(189, 72, 127); left: 70%;}
+    80%{color: rgb(161, 173, 224); left: 80%;}
+    90%{color: rgb(30, 99, 99); left: 90%;} */
+    100%{color: rgb(5, 107, 73); left: 100%;}
+    
+}

@@ -1,0 +1,25 @@
+.div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.yello{
+    background-color: yellow;
+    height: 100px;
+    aspect-ratio: 1;
+
+}.red{
+    background-color: red;
+    height: 100px;
+    aspect-ratio: 1;
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    aspect-ratio: 1;
+}
+.green{
+    height: 100px;
+    aspect-ratio: 1;
+    background-color: green ;
+}
